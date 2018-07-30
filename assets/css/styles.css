@@ -1,4 +1,15 @@
+body {
+    min-height:200vh
+}
+
 .logo {
     font-weight: 300;
     padding-left: 10px;
+}
+
+.title-text {
+    font-weight: 900;
+    background: rgba(96, 125, 139, .4);
+    padding: 30px;
+    border-radius: 10px;
 }
