@@ -1,17 +1,44 @@
-/* body {
-    min-height:200vh
-} */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
-.logo {
-    font-weight: 300;
-    padding-left: 10px;
+main {
+    flex: 1 0 auto;
+}
+
+.header {
+    background: url(../img/cherry-blossom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    # background: rgba(96, 125, 139, .4);
 }
 
 .title-text {
     font-weight: 900;
-    /* background: rgba(96, 125, 139, .4); */
-    padding: 30px;
-    border-radius: 10px;
+}
+
+/* Use for creating center nav bar */
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #map {

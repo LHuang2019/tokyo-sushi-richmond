@@ -22,87 +22,49 @@
         <title>Tokyo Sushi Richmond</title>
     </head>
     <body>
-        <!-- Navigation Section -->
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><span class ="logo pink-text text-accent-4"> Tokyo Sushi Richmond</span></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">About</a></li>
-                    <li><a href="badges.html">Menu</a></li>
-                    <li><a href="collapsible.html">Location</a></li>
-                    <li><a href="mobile.html">Gallery</a></li>
-                    <li><a href="mobile.html">Order Online</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">About</a></li>
-            <li><a href="badges.html">Menu</a></li>
-            <li><a href="collapsible.html">Location</a></li>
-            <li><a href="mobile.html">Gallery</a></li>
-            <li><a href="mobile.html">Order Online</a></li>
-        </ul>
-    
-        <!-- Title Section -->
-        <div class="parallax-container valign-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col s6 offset-s6">
-                        <h1 class="title-text right right-align valign">TOKYO SUSHI RICHMOND</h1S>
-                    </div>
-                </div>
-            </div>
-            <div class="parallax"><img src="assets/img/cherry-blossom-1.jpg"></div>
-        </div>
-        &nbsp
-        <!-- About -->
-        <div class="container">
-            <div class="row">
-                <div class="col l4 m12 s12">
-                    <div class="card z-depth-2">
-                        <div class="card-content">
-                            <span class="card-title">Contact Info:</span>
-                            &nbsp
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col s12">
-                                        <p class="left left-align valign">Phone: (804) 501-0999</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <p class="left left-align valign">Cross Ridge Shopping Center</p>
-                                    </div>
-                                    <div class="col s12">
-                                        <p class="left left-align valign">10274 Staples Mill Rd</p>
-                                    </div>
-                                    <div class="col s12">
-                                        <p class="left left-align valign">Glen Allen, VA 23060</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                </div>                                
-                            </div>
-                            <div class="card-action center-align">
-                                <div class="row">
-                                <a href="#"><i class="contact-button material-icons small fab fa-facebook hoverable waves-effect"></i></a>
-                                <a href="#"><i class="contact-button material-icons small fab fa-yelp hoverable waves-effect"></i></a>
-                                <a class="contact-button btn hoverable waves-effect red accent-2">order online</a>
-                                </div>
-                            </div>                           
+        <header>
+            <!-- Title Section -->
+            <div class="header parallax-container center-align valign-wrapper">
+                <div class="header-title container">
+                    <div class="row">
+                        <div class="col s12">
+                            <h1 class="title-text center-align valign">TOKYO SUSHI RICHMOND</h1>
                         </div>
                     </div>
+                    <div class="col s12">
+                        <a class="waves-effect btn-large hoverable">ORDER ONLINE</a>
+                    </div>
                 </div>
-                <div class="col l4 m12 s12">
-                    <div class="card z-depth-2">
-                        <div class="card-content">
-                            <span class="card-title">Store Hours:</span>
-                            <table class="striped highlight">
+            </div>
+            <!-- Title Section End-->
+            <!-- Navigation Section -->
+            <nav class="nav-center" role="navigation">
+                <div class="nav-wrapper container">
+                    <ul>
+                        <li><a href="sass.html">About</a></li>
+                        <li><a href="badges.html">Menu</a></li>
+                        <li><a href="collapsible.html">Location</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navigation Section End -->
+        </header>
+        <main>
+            <!-- About Section -->
+            <div class="container">
+                <div class="row flex">
+                    <div class="col s12 m4 l4">
+                        <div class="section">
+                            <h5 class="title-text">LOCATION & CONTACT</h5>
+                            <p>Phone: (804) 501-0999</p>
+                            <p>Cross Ridge Shopping Center<br>
+                            10274 Staples Mill Rd<br>
+                            Glen Allen, VA 23060</p>
+                            <h5 class="title-text">STORE HOUR</h5>
+                            <table class="striped">
                                 <tbody>
                                     <tr>
-                                        <td>Mon - Thurs: </td>
+                                        <td>Mon - Thurs:</td>
                                         <td>11:00 AM - 03:00 PM</td>
                                     </tr>
                                     <tr>
@@ -118,23 +80,34 @@
                                         <td>05:00 PM - 10:30 PM</td>
                                     </tr>
                                     <tr>
-                                        <td>Sunday</td>
+                                        <td>Sunday:</td>
                                         <td>12:00 PM - 09:00 PM</td>
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div>                    
                     </div>
-                </div>
-                <div class="col l4 m12 s12">
-                    <div class="card large z-depth-2">
-                        <div class="card-content ">
-                            <div id="map"></div>
+                    <div class="col s12 m8 l8 valign-wrapper">
+                        <div class="section slider">
+                            <ul class="slides">
+                                <li>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- About Section end-->
+        </main>
+        <footer>
+            <div class="container">
+                <div class="col s12">
+                    <p class="center-align">© 2014 Copyright Text</p>
+                </div>
+            </div>
+        </footer>
         <script>
             function initMap() {
                 var location = {lat: 37.6574313, lng:  -77.5260708};
