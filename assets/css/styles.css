@@ -1,0 +1,8 @@
+#header {
+    min-height: 100vh;
+    background: url(../img/cherry-blossom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
