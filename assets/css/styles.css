@@ -5,22 +5,33 @@ body {
 }
 
 main {
+    background-color: #000000;
     flex: 1 0 auto;
+    color: #FFFFFF;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #000000;
 }
 
 .header {
-    background: url(../img/cherry-blossom.jpg);
+    background: url(../img/lanterns-2792988_1920.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.header-title {
-    # background: rgba(96, 125, 139, .4);
+.header-text {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 55px #FF0000, 0 0 75px #FF0000;
 }
 
-.title-text {
+.order-online-button {
+    opacity: 0.9;
+}
+
+.section-title-text {
     font-weight: 900;
 }
 
@@ -34,6 +45,10 @@ nav.nav-center ul li {
 }
 nav.nav-center ul li a {
     display: inline-block;
+}
+
+nav {
+    opacity: 0.9;
 }
 
 .flex {
