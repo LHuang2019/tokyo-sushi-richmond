@@ -16,7 +16,7 @@ footer {
 }
 
 .header {
-    background: url(../img/lanterns-2792988_1920.jpg);
+    background: url(../img/background/lanterns-2792988_1920.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -49,6 +49,14 @@ nav.nav-center ul li a {
 
 nav {
     opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.slides img {
+    min-width: 100%;
+    min-height: 100%
 }
 
 .flex {

@@ -4,5 +4,5 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.slider').slider();
+    $('.slider').slider({full_width: true});
 });
