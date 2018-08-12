@@ -1,8 +1,7 @@
 $(document).ready(function(){
-    $(".dropdown-trigger").dropdown();
     $('.parallax').parallax();
-});
-
-$(document).ready(function(){
+    $('.dropdown-trigger').dropdown({
+        coverTrigger: true
+    });
     $('.slider').slider({full_width: true});
 });
