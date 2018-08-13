@@ -5,26 +5,24 @@ body {
 }
 
 main {
-    background-color: #000000;
+    background-image: url("../img/background/sakura.png");
     flex: 1 0 auto;
-    color: #FFFFFF;
 }
 
 footer {
-    color: #FFFFFF;
-    background-color: #000000;
+    background-image: url("../img/background/sakura.png");
 }
 
 .header {
-    background: url(../img/background/lanterns-2792988_1920.jpg);
+    background: url(../img/background/cherry-blossom.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 .header-text {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 55px #FF0000, 0 0 75px #FF0000;
+    color: #ff5252;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FFE3D7, 0 0 30px #FFE3D7, 0 0 40px #FFE3D7, 0 0 55px #FFE3D7, 0 0 75px #FFE3D7;
 }
 
 .order-online-button {
@@ -41,7 +39,7 @@ footer {
 }
 
 .menu-nav {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 #menu-dropdown {
