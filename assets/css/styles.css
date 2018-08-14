@@ -31,7 +31,11 @@ footer {
     z-index: 0;
 }
 
-.header-nav {
+.fab {
+  color: #ff5252;
+}
+
+#header-nav {
     opacity: 0.9;
     position: absolute;
     bottom: 0;

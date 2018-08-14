@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.parallax').parallax();
+        $('.slider').slider({full_width: true});
     $('.dropdown-trigger').dropdown({
         coverTrigger: false
     });
@@ -7,5 +8,5 @@ $(document).ready(function(){
         top: $('#menu-nav').offset().top
     });
     $('.scrollspy').scrollSpy();
-    $('.slider').slider({full_width: true});
+
 });
