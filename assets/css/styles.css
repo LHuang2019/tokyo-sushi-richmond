@@ -38,13 +38,22 @@ footer {
     right: 0;
 }
 
-.menu-nav {
+#menu-nav {
     opacity: 0.8;
 }
 
 #menu-dropdown {
     position: relative;
     z-index: 1;
+}
+
+a.active {
+  background-color: #ea454b;
+}
+
+#menu-dropdown li > a, .dropdown-content li > span {
+    color: #000;
+    font-weight: bold;
 }
 
 .section-title-text {
@@ -66,6 +75,10 @@ nav.nav-center ul li a {
 .slides img {
     min-width: 100%;
     min-height: 100%
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ff5252;
 }
 
 .flex {
