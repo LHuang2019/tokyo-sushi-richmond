@@ -1,4 +1,6 @@
 ## Copyright and license
 Code Copyright 2018 Materialize. Code released under the MIT license.
 
-Background pattern made by Aslan Zamanloo from Subtle Patterns
+Background image pattern is made by Aslan Zamanloo from Subtle Patterns.
+
+Website is hosted using Amazon S3, CloudFront, and Route 53.
