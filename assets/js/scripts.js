@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.parallax').parallax();
-        $('.slider').slider({full_width: true, height: 500});
+        $('.slider').slider({full_width: true, height: 550});
     $('.dropdown-trigger').dropdown({
         coverTrigger: false
     });
