@@ -95,3 +95,8 @@ nav.nav-center ul li a {
     height: 450px;
     overflow: auto;
 }
+
+.right-align-table td:last-child {
+    text-align: right;
+    padding: 10px;
+}
