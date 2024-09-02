@@ -3,6 +3,7 @@
     <head>
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://awards.infcdn.net/2024/circ5_n.css" rel="stylesheet"/>
         
         <!--Import Font Awesome Icons-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
@@ -22,9 +23,91 @@
         <title>Tokyo Sushi Richmond</title>
         <meta name="description" content="The best Sushi Restaurant in Richmond, Virginia. View Tokyo Sushi menu, hours, location, or order online for pick up.">
         <meta name="keywords" content="tokyo sushi, sushi, hibachi, japanese restaurant, richmond, glen allen">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "image": [
+                "https://www.facebook.com/photo/?fbid=511130027681270&set=a.511129977681275"
+            ],
+            "name": "Tokyo Sushi Richmond",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "10274 Staples Mill Rd",
+                "addressLocality": "Virginia",
+                "addressRegion": "VA",
+                "postalCode": "23060",
+                "addressCountry": "US"
+            },
+            "review": {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Nivette Connors"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 37.65774270467316,
+                "longitude": -77.52628233802687
+            },
+            "url": "https://tokyosushirichmond.com",
+            "telephone": "+18045010999",
+            "servesCuisine": "Japanese",
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday"
+                    ],
+                    "opens": "11:30",
+                    "closes": "14:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday"
+                    ],
+                    "opens": "17:00",
+                    "closes": "21:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Friday",
+                        "Saturday"
+                    ],
+                    "opens": "17:00",
+                    "closes": "22:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Sunday",
+                    "opens": "17:00",
+                    "closes": "21:00"
+                }
+            ],
+            "menu": "https://tokyosushirichmond.com/menu.html"
+        }
+        </script>
     </head>
     <body>
         <header>
+            
             <!-- Title Section -->
             <div class="header parallax-container center-align valign-wrapper">
                 <div class="container">
@@ -42,21 +125,32 @@
                                 class="order-online-button waves-effect btn-large hoverable red accent-2">ORDER ONLINE</a>
                         </div>
                     </div>
-                </div>
-                <!-- Navigation Section -->
-                <nav id="header-nav" class="nav-center red accent-2" role="navigation">
-                    <div class="nav-wrapper container">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="menu.html#menu-nav">Menu</a></li>
-                            <li><a href="map.html#map">Map</a></li>
-                            <li><a href="catering.html#party-menu">Catering</a></li>
-                        </ul>
+                    <div class="row">
+                        <div class="col s12">
+                            <div id="b-rcirc5" style="display: inline-block;" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.b-rcirc_bot_title').href);return 0;}">
+                                <div class="circ_cont">
+                                    <img class="circ_img" src="https://awards.infcdn.net/img/star_red.svg" alt="star">
+                                    <a href="https://restaurantguru.com" target="_blank" class="b-rcirc_top_title">Restaurant Guru 2024</a>
+                                    <p class="b-rcirc_ttl">Best restaurant</p>
+                                    <a href="https://restaurantguru.com/Tokyo-Sushi-Richmond" class="b-rcirc_bot_title" target="_blank">Tokyo Sushi Richmond</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </nav>
-                <!-- Navigation Section End -->
+                </div>
             </div>
             <!-- Title Section End-->
+            <!-- Navigation Section -->
+            <nav id="header-nav" class="nav-center red accent-2" role="navigation">
+                <div class="nav-wrapper container">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html#menu-nav">Menu</a></li>
+                        <li><a href="catering.html#party-menu">Catering</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navigation Section End -->
         </header>
         <main>
             <!-- About Section -->
